@@ -1,0 +1,20 @@
+{
+  "api": {
+    "response_sha256": "ffefdf50d54770c2a20ba143e42daa910535c20ec5ca7a1e449dac71729f00fe",
+    "status_code": 200,
+    "url": "https://jsonplaceholder.typicode.com/todos/1",
+    "validation_errors": [],
+    "validation_passed": true
+  },
+  "generated_utc": "2026-03-11T17:05:56.720267+00:00",
+  "run": {
+    "platform": "win32",
+    "python": "3.12.6"
+  },
+  "schema_version": "1.0",
+  "student": {
+    "group": "IS31",
+    "name": "Артур Самарин",
+    "token": "D1-IB-23-5b-18-59D1"
+  }
+}

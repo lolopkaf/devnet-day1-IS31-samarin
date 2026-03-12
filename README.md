@@ -1,2 +1,1 @@
-## Progress
-Day2 A progress
+Day2 A and B progress

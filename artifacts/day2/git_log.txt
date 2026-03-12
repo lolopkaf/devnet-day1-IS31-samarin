@@ -1,0 +1,13 @@
+*   5938542 (HEAD -> main) Resolve README conflict (Day2)
+|\
+| * 44cdd54 (feature/day2-readme-B) update README B
+* | e01ff40 (feature/day2-readme-A) update README A
+* | 6743198 (feature/day2-dataformats) add PR link
+* | 39cbf4d (origin/feature/day2-dataformats) add day2 data formats generator
+|/
+* e3ee177 (origin/main) add Day1_report.md
+* f25efa1 add artifacts
+* cf7184b add tests and schema
+* bc54c54 add api script
+* 099af30 init project structure
+* d628fc5 add requirements

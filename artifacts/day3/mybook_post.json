@@ -1,0 +1,15 @@
+{
+  "api_key_sha256": "256c484c33417c6c0a70ffc2a115331bac28b919c2fc6a7c8fff264f10b472ee",
+  "request": {
+    "author": "Самарин Артур",
+    "id": 5018,
+    "isbn": "978-18a954ffef",
+    "title": "My DevNet Book a954ffef"
+  },
+  "response": {
+    "author": "Самарин Артур",
+    "id": 5018,
+    "title": "My DevNet Book a954ffef"
+  },
+  "status_code": 200
+}

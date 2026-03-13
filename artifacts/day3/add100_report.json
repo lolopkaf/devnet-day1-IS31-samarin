@@ -1,0 +1,45 @@
+{
+  "added_fail": 0,
+  "added_ok": 100,
+  "api_key_sha256": "256c484c33417c6c0a70ffc2a115331bac28b919c2fc6a7c8fff264f10b472ee",
+  "author_used": "Самарин Артур",
+  "count_requested": 100,
+  "generated_utc": "2026-03-13T13:13:17.082242+00:00",
+  "id_range": [
+    9600,
+    9699
+  ],
+  "sample_books": [
+    {
+      "author": "Самарин Артур",
+      "id": 9600,
+      "isbn": "978-1-328-29854-6",
+      "title": "Streamlined modular interface [a954ffef]"
+    },
+    {
+      "author": "Самарин Артур",
+      "id": 9601,
+      "isbn": "978-1-83453-477-0",
+      "title": "Future-proofed user-facing hierarchy [a954ffef]"
+    },
+    {
+      "author": "Самарин Артур",
+      "id": 9602,
+      "isbn": "978-0-15-281956-9",
+      "title": "Phased next generation success [a954ffef]"
+    },
+    {
+      "author": "Самарин Артур",
+      "id": 9603,
+      "isbn": "978-0-683-78869-3",
+      "title": "Multi-tiered methodical standardization [a954ffef]"
+    },
+    {
+      "author": "Самарин Артур",
+      "id": 9604,
+      "isbn": "978-0-557-34661-5",
+      "title": "Cross-platform real-time open system [a954ffef]"
+    }
+  ],
+  "tag": "a954ffef"
+}

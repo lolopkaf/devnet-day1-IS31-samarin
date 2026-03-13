@@ -1,0 +1,42 @@
+{
+  "count": 6,
+  "items": [
+    {
+      "author": "Самарин Артур",
+      "id": 5018,
+      "isbn": "978-18a954ffef",
+      "title": "My DevNet Book a954ffef"
+    },
+    {
+      "author": "Самарин Артур",
+      "id": 9600,
+      "isbn": "978-1-328-29854-6",
+      "title": "Streamlined modular interface [a954ffef]"
+    },
+    {
+      "author": "Самарин Артур",
+      "id": 9601,
+      "isbn": "978-1-83453-477-0",
+      "title": "Future-proofed user-facing hierarchy [a954ffef]"
+    },
+    {
+      "author": "Самарин Артур",
+      "id": 9602,
+      "isbn": "978-0-15-281956-9",
+      "title": "Phased next generation success [a954ffef]"
+    },
+    {
+      "author": "Самарин Артур",
+      "id": 9603,
+      "isbn": "978-0-683-78869-3",
+      "title": "Multi-tiered methodical standardization [a954ffef]"
+    },
+    {
+      "author": "Самарин Артур",
+      "id": 9604,
+      "isbn": "978-0-557-34661-5",
+      "title": "Cross-platform real-time open system [a954ffef]"
+    }
+  ],
+  "status_code": 200
+}

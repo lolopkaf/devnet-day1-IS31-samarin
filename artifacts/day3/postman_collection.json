@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "4ea4c29f-4bdf-45ba-823a-e73e41f30ede",
+		"name": "Day3-Library-IB23-18",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "52636405",
+		"_collection_link": "https://artursamarin21-8908634.postman.co/workspace/artfreek's-Workspace~893acc78-7255-487b-8349-218dc87b1967/collection/52636405-4ea4c29f-4bdf-45ba-823a-e73e41f30ede?action=share&source=collection_link&creator=52636405"
+	},
+	"item": [
+		{
+			"name": "GET books",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "POST login",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "POST book",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

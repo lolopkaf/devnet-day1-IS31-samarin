@@ -1,0 +1,9 @@
+Started by user admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/BuildAppJob
+[BuildAppJob] $ /bin/sh -xe /tmp/jenkins.sh
++ echo Building app...
+Building app...
++ echo TOKEN_HASH8=a954ffef
+TOKEN_HASH8=a954ffef
+Finished: SUCCESS

@@ -1,0 +1,18 @@
+
+PLAY [webservers] *****************************************************************************************
+
+TASK [Gathering Facts] ************************************************************************************
+ok: [192.0.2.3]
+
+TASK [Install Apache] *************************************************************************************
+changed: [192.0.2.3]
+
+TASK [Change Apache port to 8081] *************************************************************************
+changed: [192.0.2.3]
+
+TASK [Start Apache] ***************************************************************************************
+fatal: [192.0.2.3]: FAILED! => {"changed": false, "msg": "Unable to restart service apache2: Job for apache2.service failed because the control process exited with error code.\nSee \"systemctl status apache2.service\" and \"journalctl -xe\" for details.\n"}
+
+PLAY RECAP ************************************************************************************************
+192.0.2.3                  : ok=3    changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+

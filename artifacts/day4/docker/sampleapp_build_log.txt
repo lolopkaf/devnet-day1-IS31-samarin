@@ -1,0 +1,63 @@
+Sending build context to Docker daemon  4.096kB
+Step 1/6 : FROM python:3.8-alpine
+3.8-alpine: Pulling from library/python
+43c4264eed91: Pulling fs layer
+bbd039b2f2dc: Pulling fs layer
+2fe9ed713579: Pulling fs layer
+86e037ebf8b6: Pulling fs layer
+86e037ebf8b6: Waiting
+bbd039b2f2dc: Verifying Checksum
+bbd039b2f2dc: Download complete
+43c4264eed91: Verifying Checksum
+43c4264eed91: Download complete
+43c4264eed91: Pull complete
+bbd039b2f2dc: Pull complete
+86e037ebf8b6: Verifying Checksum
+86e037ebf8b6: Download complete
+2fe9ed713579: Verifying Checksum
+2fe9ed713579: Download complete
+2fe9ed713579: Pull complete
+86e037ebf8b6: Pull complete
+Digest: sha256:3d93b1f77efce339aa77db726656872517b0d67837989aa7c4b35bd5ae7e81ba
+Status: Downloaded newer image for python:3.8-alpine
+ ---> cd39247b02f9
+Step 2/6 : WORKDIR /app
+ ---> Running in 7d3e2daf2833
+Removing intermediate container 7d3e2daf2833
+ ---> 9d6726a4dc64
+Step 3/6 : COPY requirements.txt .
+ ---> ff94c04d2c8c
+Step 4/6 : RUN pip install --no-cache-dir flask==2.0.3 werkzeug==2.0.3
+ ---> Running in ba7484cfb07e
+Collecting flask==2.0.3
+  Downloading Flask-2.0.3-py3-none-any.whl (95 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 95.6/95.6 kB 558.1 kB/s eta 0:00:00
+Collecting werkzeug==2.0.3
+  Downloading Werkzeug-2.0.3-py3-none-any.whl (289 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 289.2/289.2 kB 1.6 MB/s eta 0:00:00
+Collecting Jinja2>=3.0
+  Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.9/134.9 kB 3.7 MB/s eta 0:00:00
+Collecting click>=7.1.2
+  Downloading click-8.1.8-py3-none-any.whl (98 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.2/98.2 kB 3.5 MB/s eta 0:00:00
+Collecting itsdangerous>=2.0
+  Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Collecting MarkupSafe>=2.0
+  Downloading MarkupSafe-2.1.5-cp38-cp38-musllinux_1_1_x86_64.whl (29 kB)
+Installing collected packages: werkzeug, MarkupSafe, itsdangerous, click, Jinja2, flask
+Successfully installed Jinja2-3.1.6 MarkupSafe-2.1.5 click-8.1.8 flask-2.0.3 itsdangerous-2.2.0 werkzeug-2.0.3
+[91mWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+[0m[91m
+[notice] A new release of pip is available: 23.0.1 -> 25.0.1
+[notice] To update, run: pip install --upgrade pip
+[0mRemoving intermediate container ba7484cfb07e
+ ---> 0345dbd2e7e8
+Step 5/6 : COPY sample_app.py .
+ ---> 24c93d062a1b
+Step 6/6 : CMD ["python", "sample_app.py"]
+ ---> Running in cc4aea666684
+Removing intermediate container cc4aea666684
+ ---> 3289bee4c48b
+Successfully built 3289bee4c48b
+Successfully tagged sampleapp:day4

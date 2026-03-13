@@ -1,0 +1,10 @@
+Started by user admin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/TestAppJob
+[TestAppJob] $ /bin/sh -xe /tmp/jenkins.sh
++ echo Testing app...
+Testing app...
++ echo All tests passed
+All tests passed
+Finished: SUCCESS
+

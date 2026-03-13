@@ -1,0 +1,3 @@
+CONTAINER ID                                                       IMAGE                 COMMAND                                        CREATED             STATUS              PORTS                                              NAMES
+890dd3b8447289a87f70261e9ed93a98939096df5d5a132638459216e8f521cf   jenkins/jenkins:lts   "/usr/bin/tini -- /usr/local/bin/jenkins.sh"   8 minutes ago       Up 8 minutes        0.0.0.0:50000->50000/tcp, 0.0.0.0:8081->8080/tcp   jenkins
+407c3f1f8092c76917e8e54063b5419b1c2882e1dc2723fa73aac709767dbed4   sampleapp:day4        "python sample_app.py"                         13 minutes ago      Up 13 minutes       0.0.0.0:8080->8080/tcp                             sampleapp

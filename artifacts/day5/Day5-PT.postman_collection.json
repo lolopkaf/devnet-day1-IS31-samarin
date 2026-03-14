@@ -1,0 +1,19 @@
+{
+	"info": {
+		"_postman_id": "3bae4392-1fb0-4833-a74b-8be9104249af",
+		"name": "Day5-PT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "52636405",
+		"_collection_link": "https://artursamarin21-8908634.postman.co/workspace/artfreek's-Workspace~893acc78-7255-487b-8349-218dc87b1967/collection/52636405-3bae4392-1fb0-4833-a74b-8be9104249af?action=share&source=collection_link&creator=52636405"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

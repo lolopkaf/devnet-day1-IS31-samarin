@@ -1,0 +1,47 @@
+{
+  "generated_utc": "2026-03-14T13:25:39.351040+00:00",
+  "pt": {
+    "empty_ticket_seen": true,
+    "evidence_sha": {
+      "external_access_check": "9668cbe6718bb74afd8c27451d839739978ab7a22995906787c757ad5349caf4",
+      "hosts": "933f834df498aaced43cbd380b9e43687f483a7cce2396d450c56b9a50f9064f",
+      "network_devices": "933f834df498aaced43cbd380b9e43687f483a7cce2396d450c56b9a50f9064f",
+      "postman_collection": "",
+      "postman_environment": "",
+      "pt_internal_output": "45869f268e72ceb92141b96e33d625f7ca3f30ab939ddf55c8b33d7f7fd6387c",
+      "serviceTicket": "d245af685362f8d832f452fbbec4bfcfcacc941e6dd327e7815272e6abdd438e"
+    },
+    "ok": true
+  },
+  "run": {
+    "platform": "linux",
+    "python": "3.8.2"
+  },
+  "schema_version": "5.0",
+  "student": {
+    "group": "IB23",
+    "name": "Самарин Артур",
+    "token": "D1-IB-23-5b-18-59D1",
+    "token_hash8": "a954ffef"
+  },
+  "validation_passed": true,
+  "webex": {
+    "evidence_sha": {
+      "me": "29d1a2cfb1e1bee7a2cf88de640b9f810ac7f5710ba8dd9ec41e228f0cdefda4",
+      "message_post": "faea915ccbc85cdbbf536c0e8e6fb8f74daffd19c88bcf9b05c1676a5bdce3d4",
+      "messages_list": "aae01534601b48ec571c7870f96f301ec27d0152ca20fb95560371da37a07ce8",
+      "room_create": "b19cea5a7bf52571c83dd09a1b6e8e6d04d24a07b30e81d42c089a52ab33600c",
+      "rooms_list": "0343639fac1511a32a4c9a92c7655a6e9f9ad3a600fc6f30b5bdad6806160a97"
+    },
+    "ok": true,
+    "room_title_contains_hash8": true
+  },
+  "yang": {
+    "evidence_sha": {
+      "ietf_interfaces_yang": "9a7aee5b007de501cbdbc6fc0139dd04b795695208f9d8c6e0fc0ffbad5184db",
+      "pyang_tree": "949de5d3ee156508fe0af9f6a93bb6b16cf3e397ba9f6ba226e1c50bb5256edb",
+      "pyang_version": "489587c65bc6055e9712a85f8c1c062c23d46eab19e52e64793d9a23af4cc82d"
+    },
+    "ok": true
+  }
+}
